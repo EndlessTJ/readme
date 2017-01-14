@@ -1,0 +1,354 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TJ WEB</title>
+    <link rel="stylesheet" href="css/fullpage.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/jquery.fullPage.js"></script>
+    <script src="js/index.js"></script>
+    <script>
+        $(function () {
+            $('#dowebok').fullpage({
+                'navigation':true,
+                anchors: ['page1', 'page2', 'page3', 'page4','page5','page6','page7'],
+                menu: '#menu',
+                scrollOverflow:true
+
+            });
+
+        })
+    </script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <div class="logo-pic"></div>
+            <div class="logo-txt">
+                <h3>Personal Resume</h3>
+                <span></span>
+                <p>前端工程师</p>
+            </div>
+        </div>
+        <nav class="top-nav">
+            <div class="menu-btn">
+                <span></span>
+                <span></span>
+            </div>
+            <ul id="small-menu" >
+                <li class="iconfont icon-shouye" data-menuanchor="page1"><a href="#page1">首页</a></li>
+                <li class="iconfont icon-shouye" data-menuanchor="page1"><a href="#page1">关于我</a></li>
+                <li class="iconfont icon-zuopin" data-menuanchor="page2"><a href="#page2">项目</a></li>
+                <li class="iconfont icon-boke"><a href="http://www.cnblogs.com/tianjinblog/">个人博客</a></li>
+                <li class="iconfont icon-skill" data-menuanchor="page4"><a href="#page4">职业技能</a></li>
+                <li class="iconfont icon-experience" data-menuanchor="page6"><a href="#page5">职业履历</a></li>
+                <li class="iconfont icon-github"><a href="https://github.com/DDKTjinT1">github</a></li>
+            </ul>
+            <ul id="menu">
+                <li data-menuanchor="page1"><a href="#page1">首页</a></li>
+                <li data-menuanchor="page1"><a href="#page1">关于我</a></li>
+                <li data-menuanchor="page2"><a href="#page2">项目</a></li>
+                <li><a href="http://www.cnblogs.com/tianjinblog/">个人博客</a></li>
+                <li data-menuanchor="page4"><a href="#page4">职业技能</a></li>
+                <li data-menuanchor="page5"><a href="#page5">职业履历</a></li>
+                <li ><a href="https://github.com/DDKTjinT1">github</a></li>
+                <li data-menuanchor="page6"><a href="#page6">联系我</a></li>
+            </ul>
+        </nav>
+    </header>
+<div id="dowebok">
+    <div class="section about-me">
+        <div class="container">
+            <h3>ABOUT ME</h3>
+            <p>我的个人简介</p>
+            <div class="table-about">
+                <div class="myPhoto">
+
+                </div>
+                <div class="person-info">
+                    <ul>
+                        <li>
+                            <h4>我的职业</h4>
+                            <p>前端工程师</p>
+                        </li>
+                        <li>
+                            <h4>姓名</h4>
+                            <p>田进</p>
+                        </li>
+                        <li>
+                            <h4>联系电话</h4>
+                            <p>15735801140</p>
+                        </li>
+                        <li>
+                            <h4>现居地</h4>
+                            <p>北京.海淀</p>
+                        </li>
+                        <li>
+                            <h4>邮箱</h4>
+                            <p>tainjin520@163.com</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section works">
+        <div class="container">
+            <h3>My Gallery</h3>
+            <p>项目展现</p>
+            <div class="work-lists">
+                <div class="line line-one">
+                    <div class="work works-one">
+                        <a href="http://localhost:5656/list">
+                            <img src="img/logo.jpg" alt="">
+                            <div class="hidden-mask">
+                                <h4>查看详情</h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="work works-two">
+                        <a href="http://localhost:8080/index">
+                            <img src="img/workApp.PNG" alt="">
+                            <div class="hidden-mask">
+                                <h4>查看详情</h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="work works-three">
+                        <a href="https://ddktjint1.github.io/kupaoGame/%E8%B7%91%E9%85%B7%E6%B8%B8%E6%88%8F/game.html">
+                            <img src="img/跑酷游戏.PNG" alt="">
+                            <div class="hidden-mask">
+                                <h4>查看详情</h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="work works-four">
+                        <a href="https://ddktjint1.github.io/palette//%E7%94%BB%E6%9D%BF/canvas1.html">
+                            <img src="img/画板.PNG" alt="">
+                            <div class="hidden-mask">
+                                <h4>查看详情</h4>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <div class="section works">
+        <div class="container">
+            <div class="work-lists">
+                <div class="line line-two">
+                    <div class="work works-one">
+                        <a href="http://tjpersoncwhl.duapp.com/phpnews/aheadWeb/index.php">
+                            <img src="img/车网.PNG" alt="">
+                            <div class="hidden-mask">
+                                <h4>查看详情</h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="work works-two">
+                        <a href="http://tjpersoncwhl.duapp.com/install_package/index.php">
+                            <img src="img/奥美.PNG" alt="">
+                            <div class="hidden-mask">
+                                <h4>查看详情</h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="work works-three">
+                        <a href="#">
+                            <img src="img/6.jpg" alt="">
+                            <div class="hidden-mask">
+                                <h4>查看详情</h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="work works-four">
+                        <a href="#">
+                            <img src="img/3.jpg" alt="">
+                            <div class="hidden-mask">
+                                <h4>查看详情</h4>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="line line-three">
+                    <div class="work works-one">
+                        <a href="#">
+                            <img src="img/7.jpg" alt="">
+                            <div class="hidden-mask">
+                                <h4>查看详情</h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="work works-two">
+                        <a href="#">
+                            <img src="img/8.jpg" alt="">
+                            <div class="hidden-mask">
+                                <h4>查看详情</h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="work works-three">
+                        <a href="#">
+                            <img src="img/9.jpg" alt="">
+                            <div class="hidden-mask">
+                                <h4>查看详情</h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="work works-four">
+                        <a href="#">
+                            <img src="img/3.jpg" alt="">
+                            <div class="hidden-mask">
+                                <h4>查看详情</h4>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section skills">
+        <div class="container">
+
+
+                <h3>MY SKILLS</h3>
+                <p>专业技能</p>
+            <a href="#"><span class="more">
+                    更多技能 >
+                </span></a>
+
+            <div class="content">
+                <div class="skill">
+                    <a href="#" class="iconfont">&#xe6ac;</a>
+                    <span>HTML</span>
+                </div>
+                <div class="skill">
+                    <a href="#" class="iconfont">&#xe612;</a>
+                    <span>CSS</span>
+                </div>
+                <div class="skill">
+                    <a href="#" class="iconfont">&#xe610;</a>
+                    <span>JavaScript</span>
+                </div>
+                <div class="skill">
+                    <a href="#" class="iconfont">&#xe685;</a>
+                    <span>php</span>
+                </div>
+                <div class="skill">
+                    <a href="#" class="iconfont">&#xe80e;</a>
+                    <span>nodejs</span>
+                </div>
+                <div class="skill">
+                    <a href="#" class="iconfont">&#xe858;</a>
+                    <span>AngularJS</span>
+                </div>
+                <div class="skill">
+                    <a href="#" class="iconfont">&#xe63f;</a>
+                    <span>ReactJs</span>
+                </div>
+                <div class="skill">
+                    <a href="#" class="iconfont">&#xe633;</a>
+                    <span>VueJs</span>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <div class="section experience">
+        <div class="container">
+            <h3>MY EXPERIRENCE</h3>
+            <p>工作经验</p>
+            <div class="exper">
+                <div class="left">
+                    <div class="bar"></div>
+                    <h3>2015.11-2016.1</h3>
+                    <span>前端工程师</span>
+                </div>
+
+                <div class="right">
+                    <span class="angle"></span>
+                    <div class="block">
+                        <h4>山西伊泡网络科技公司</h4>
+                        <p>（实习）前端技术部
+                            负责快速构建高质量移动app页面，用less预编译css，gulp进行自动化构建，使用原生JS+angularJS进行前端开发，使用git svn进行版本控制，Phonegap/Cordova进行app打包</p>
+                    </div>
+                </div>
+            </div>
+            <div class="exper">
+                <div class="left">
+                    <div class="bar"></div>
+                    <h3>2016.1-2016.6</h3>
+                    <span>前端工程师</span>
+                </div>
+                <div class="right">
+                    <span class="angle"></span>
+                    <div class="block">
+                        <h4>山西伊泡网络科技公司</h4>
+                        <p>前端技术部
+                            负责快速构建高质量移动app页面，用less预编译css，gulp进行自动化构建，使用原生JS+angularJS进行前端开发，使用git svn进行版本控制，Phonegap/Cordova进行app打包</p>
+                    </div>
+                </div>
+            </div>
+            <div class="exper">
+                <div class="left">
+                    <div class="bar"></div>
+                    <h3>2016.6-2016.12</h3>
+                    <span>前端工程师</span>
+                </div>
+                <div class="right">
+                    <span class="angle"></span>
+                    <div class="block">
+                        <h4>山西伊泡网络科技公司</h4>
+                        <p>前端技术部
+                            负责快速构建高质量移动app页面，用less预编译css，gulp进行自动化构建，使用原生JS+angularJS进行前端开发，使用git svn进行版本控制，Phonegap/Cordova进行app打包</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="section contact">
+        <div class="container">
+            <h3>CONTACT ME</h3>
+            <p>联系我</p>
+            <div class="other-person">
+                <p class="other-info">如果方便请留下您的联系方式</p>
+                <form action="1.php">
+                <input type="text" placeholder="你的名字" name="user" id="name">
+                <input type="tel" placeholder="您的联系方式" name="tel" id="tel">
+                    <input type="submit" value="提交" id="sub">
+                </form>
+            </div>
+            <div class="person-tj">
+                <div class="location con-block">
+                    <span class="iconfont">&#xe694;</span>
+                    <b>现居地</b>
+                    <p>北京市 海淀区</p>
+                </div>
+                <div class="mail con-block">
+                    <span class="iconfont">&#xe600;</span>
+
+                    <b>EMAIL</b>
+                    <p>tainjin520@163.com</p>
+                </div>
+                <div class="phone con-block">
+                    <span class="iconfont">&#xe62f;</span>
+                    <b>联系电话</b>
+                    <p>15735801140</p>
+
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+</div>
+</body>
+</html>
